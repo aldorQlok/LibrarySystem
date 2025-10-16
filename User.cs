@@ -16,6 +16,7 @@ namespace LibrarySystem
         {
             Loan newLoan = new Loan(book);
             Loans.Add(newLoan);
+            Console.WriteLine($"{Name} lånade {book.Title} Elvira");
             Console.WriteLine($"{Name} lånade {book.Title} Emma");
         }
     }
